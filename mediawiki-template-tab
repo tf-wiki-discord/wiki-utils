@@ -1,0 +1,10 @@
+{{#switch:{{{1|}}}
+|o=<div class="tabber" {{#if:{{{2|}}}|style="width:{{{2}}}"}}>
+|o-info=<div class="tabber info" style="width:{{{2|250px}}}">
+|o-char=<div class="tabber info" style="width:{{{2|360px}}}">
+|o-left=<div class="tabber goleft" {{#if:{{{2|}}}|style="width:{{{2}}}"}}>
+|o-right=<div class="tabber goright" {{#if:{{{2|}}}|style="width:{{{2}}}"}}>
+|o-center=<div class="tabber gocenter" {{#if:{{{2|}}}|style="width:{{{2}}}"}}>
+|c=</div>
+|#default=<div class="tabbertab" title="{{{1|}}}" {{#if:{{{2|}}}|style="background:{{{2}}}"}}>
+}}
